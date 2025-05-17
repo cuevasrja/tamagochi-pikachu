@@ -81,5 +81,5 @@ int pedirApuesta(int watts);
 void compararItems(char* itemRandom, char* itemSeleccionado, Pikachu *pikachu, int *watts, int apuesta);
 void mostrarInventario(lista *consumibles);
 
-int main();
+int main(int argc, char const *argv[]);
 #endif
